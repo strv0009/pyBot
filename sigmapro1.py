@@ -11,7 +11,7 @@ from DBhelper import *
 
 env = Env()
 env.read_env(".env")
-token = "AAFUMm_Af669jKqH0-eky5VXE2svbyHToho"
+token = ""
 bot = Bot(token=token)
 dp = Dispatcher()
 router = Router()
